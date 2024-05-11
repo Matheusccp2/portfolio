@@ -131,3 +131,24 @@ body {
     
     width: 70px;
 }
+
+.menu-hamburguer {
+    display: none;
+}
+
+@media screen and (max-width: 480px) { 
+    .menu-hamburguer {
+        display: inline;
+        cursor: pointer;
+    }
+
+    .cabecalho {
+        display: flex;
+        
+        
+    }
+
+    .navegation {
+        display: none;
+    }
+}
