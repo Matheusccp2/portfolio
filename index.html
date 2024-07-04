@@ -6,55 +6,64 @@
 
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/style.css">
-    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="src/styles/cabecalho.css">
+    <link rel="stylesheet" href="src/styles/apresentacao.css">
 
     <title>Portfólio | Matheus Costa</title>
 </head>
 <body>
+    <!-- Inicion Cabeçalho -->
     <header class="cabecalho">
-        <a href="#">
-             <img src="assets/images/Logo.png" alt="Logo" class="logo-nav">
-        </a>
-        <div class="hamburguer">
-            <img src="assets/images/menu-hamburguer.svg" alt="">
+        <div class="img-logo">
+            <img src="src/assets/images/Logo.png" alt="Logo MC Dev">
         </div>
-        <nav class="navegation">
-            <ul class="lista">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <a href="#">Projetos</a>
-                </li>
-                <li>
-                    <a href="#">Experiências</a>
-                </li>
-                <li>
-                    <a href="#">Fale Comigo</a>
-                </li>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Experiências</a></li>
             </ul>
         </nav>
-    </header>
-    <main class="conteudo">
-        <div class="apresentacao">
-            <div class="linha1">
-                <img src="assets/images/HelloWorld.png" alt="Hello World">
-                <p>Me chamo,</p>
-            </div>
-            <div class="linha2">
-                <h2>Matheus Costa</h2>
-                <h1>Desenvolvedor <span>FrontEnd</span></h1>
-                <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
-            </div>
-            <div class="linha3">
-                <img src="assets/icons/icon-linkedin.svg" alt="LinkedIn" class="icons">
-                <img src="assets/icons/icon-github.svg" alt="GitHub" class="icons">
-                <img src="assets/icons/icon-instagram.svg" alt="Instagram" class="icons">
-            </div>
+        <div class="btn-fale-comigo">
+            <img src="src/assets/icons/icons-whatsapp.svg" alt="icon whatsapp">
+            <p>Fale Comigo</p>
         </div>
-    </main>
+    </header>
+    <!-- Fim Cabeçalho -->
+
+    <!-- Inicio Apresentação -->
+    <div class="apresentacao">
+
+        <div class="linha1">
+            <div class="hello">
+                <p>> Hello World!</p>
+            </div>
+            <p class="texto">Me chamo,</p>
+        </div>
+
+        <div class="linha2">
+            <p>Matheus Costa</p>
+        </div>
+
+        <div class="linha3">
+            <p><span>Desenvolvedor</span> FrontEnd</p>
+        </div>
+
+        <div class="linha4">
+            <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+        </div>
+
+        <div class="linha5">
+            <img src="src/assets/icons/icons-github.svg" alt="icone github">
+            <img src="src/assets/icons/icons-linkedin.svg" alt="icone linkedin">
+            <img src="src/assets/icons/icons-instagram.svg" alt="icone instagram">
+        </div>
+
+    </div>
+    <!-- Fim Apresentação -->
+
+    
+
 </body>
 </html>

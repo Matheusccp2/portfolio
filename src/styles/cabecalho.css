@@ -1,0 +1,57 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 133px;
+    background-color: #365486;
+}
+
+.img-logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 157px;
+}
+
+.navegacao ul {
+    display: flex;
+    gap: 59px;
+    
+    font-family: 'Lexend';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.navegacao ul a {
+    color: #DCF2F1;
+}
+
+.btn-fale-comigo {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 15px;
+    background-color: #DCF2F1;
+    width: 230px;
+    border-radius: 10px;
+    padding: 25px 15px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-right: 157px;
+}
+
+.btn-fale-comigo img {
+    width: 30px;
+    height: 30px;
+    margin-left: 19px;
+}
+
+.btn-fale-comigo p {
+    font-family: 'Lexend';
+    font-size: 24px;
+    font-weight: 500;
+    color: #365486;
+    margin-right: 17px;
+}
