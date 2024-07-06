@@ -1,0 +1,50 @@
+.sobre-mim-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 206px;
+    margin-bottom: 240px;
+    margin-top: 258px;
+}
+
+.sobre-mim-texto {
+    width: 627px;
+    
+}
+
+.sobre-mim-texto h2 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #365486;
+    margin-bottom: 16px;
+}
+
+.sobre-mim-texto p {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 190%;
+}
+
+.btn-sobre-mim {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.btn-sobre-mim .btn-fale-comigo {
+    margin-right: 24px;
+    border: 1px solid #365486;
+    border-radius: 8px;
+}
+
+.btn-sobre-mim .btn-download-curriculo {
+    margin-right: 24px;
+    border: 1px solid #365486;
+    background-color: #365486;
+    border-radius: 8px;
+}
+
+.btn-download-curriculo p {
+    color: #DCF2F1;
+}
