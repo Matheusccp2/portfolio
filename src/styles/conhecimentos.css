@@ -1,0 +1,50 @@
+.conhecimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 273px;
+}
+
+.conhecimentos .conhecimentos-titulo {
+    color: #365486;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 74px;
+}
+
+.conhecimentos hr {
+    width: 125px;
+    border: 0.1px solid #365486;
+    margin-bottom: 131px;
+    margin-top: 25px;
+}
+
+.card-conhecimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background-color: #365486;
+    border-radius: 10px;
+    box-shadow: 10px 10px 3px black;
+}
+
+.card-conhecimentos img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 22px;
+}
+
+.card-conhecimentos h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E44F26;
+}
+
+.conhecimentos-content {
+    display: grid;
+    
+}

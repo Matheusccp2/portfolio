@@ -1,0 +1,86 @@
+.projetos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projetos .projetos-titulo {
+  color: #365486;
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 105px;
+}
+
+.projetos hr {
+  width: 125px;
+  border: 0.1px solid #365486;
+  margin-bottom: 131px;
+  margin-top: 25px;
+}
+
+.projetos-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  width: 373px;
+  height: 567px;
+  background-color: #365486;
+  border-radius: 20px;
+  text-align: justify;
+  margin-bottom: 196px;
+}
+
+.content {
+  margin: 29px;
+  color: #CCCCCC;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #CCC;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.content > p {
+  font-size: 18px;
+  color: #CCC;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.content span {
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+.link-anexo, .link-github {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.link-anexo img, .link-github img{
+  width: 20px;
+  height: 20px;
+}
+
+.link-anexo p, .link-github p{
+  color: #CCC;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
